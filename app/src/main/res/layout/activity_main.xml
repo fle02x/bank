@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:anroid="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    anroid:background="@color/blue_gray_100"
+
+    anroid:layout_width="match_parent"
+    anroid:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ListView
+        anroid:id="@+id/listView"
+        anroid:layout_width="match_parent"
+        anroid:layout_height="match_parent"
+        anroid:background="@color/design_default_color_error"
+        />
+</RelativeLayout>
